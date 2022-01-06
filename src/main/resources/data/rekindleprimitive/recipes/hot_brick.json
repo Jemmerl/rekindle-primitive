@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "ingredient": {
+    "item": "rekindleprimitive:dry_unfired_brick"
+  },
+  "result": "rekindleprimitive:hot_brick",
+  "experience": 0.00,
+  "cookingtime": 100
+}

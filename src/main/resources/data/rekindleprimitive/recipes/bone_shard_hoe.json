@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " BL",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "B": {
+      "item": "minecraft:bone"
+    },
+    "L": {
+      "tag": "rekindleprimitive:bindings"
+    }
+  },
+  "result": {
+    "item": "rekindleprimitive:bone_shard_hoe",
+    "count": 1
+  }
+}

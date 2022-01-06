@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WTW",
+    "TST",
+    "WTW"
+  ],
+  "key": {
+    "W": {
+      "tag": "minecraft:planks"
+    },
+    "T": {
+      "item": "minecraft:stick"
+    },
+    "S": {
+      "tag": "minecraft:sand"
+    }
+  },
+  "result": {
+    "item": "rekindleprimitive:wooden_brick_mold",
+    "count": 2
+  }
+}

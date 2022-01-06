@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " S ",
+    "SGS",
+    "LLL"
+  ],
+  "key": {
+    "L": {
+      "tag": "minecraft:logs_that_burn"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "G": {
+      "item": "rekindleprimitive:straw_grass"
+    }
+  },
+  "result": {
+    "item": "minecraft:campfire",
+    "count": 1
+  }
+}

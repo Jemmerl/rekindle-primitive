@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "LBL",
+    "L L"
+  ],
+  "key": {
+    "L": {
+      "item": "minecraft:leather"
+    },
+    "B": {
+      "item": "rekindleprimitive:leather_strips"
+    }
+  },
+  "result": {
+    "item": "minecraft:leather_boots",
+    "count": 1
+  }
+}

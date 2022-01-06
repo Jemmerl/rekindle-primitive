@@ -1,0 +1,31 @@
+{
+  "item.rekindleprimitive.fire_ash": "Ash",
+  "item.rekindleprimitive.straw_grass": "Straw",
+  "item.rekindleprimitive.dry_unfired_brick": "Dry Unfired Brick",
+  "item.rekindleprimitive.brick_clay": "Brick Clay",
+  "item.rekindleprimitive.wooden_brick_mold": "Wooden Brick Mold",
+  "item.rekindleprimitive.impure_calcium_oxide": "Crude Quicklime",
+  "item.rekindleprimitive.lime_mortar": "Lime Mortar",
+  "item.rekindleprimitive.hot_brick": "Hot Brick",
+  "item.rekindleprimitive.animal_pelt": "Pelt",
+  "item.rekindleprimitive.scraped_hide": "Scraped Hide",
+  "item.rekindleprimitive.soaked_hide": "Soaked Hide",
+  "item.rekindleprimitive.prepared_hide": "Prepared Hide",
+  "item.rekindleprimitive.wet_tanned_hide": "Wet Tanned Hide",
+  "item.rekindleprimitive.bark_strips": "Bark Strips",
+  "item.rekindleprimitive.leather_strips": "Leather Strips",
+
+  "item.rekindleprimitive.digging_stick": "Digging Stick",
+  "item.rekindleprimitive.bone_shard_hoe": "Bone Shard Hoe",
+
+  "block.rekindleprimitive.wet_brick_mold": "Wet Brick Mold",
+  "block.rekindleprimitive.dry_brick_mold": "Dry Brick Mold",
+  "block.rekindleprimitive.chromite_ore": "Chromite Ore",
+  "block.rekindleprimitive.monazite_ore": "Monazite Ore",
+  "block.rekindleprimitive.vanadinite_ore": "Vanadinite Ore",
+
+  "itemGroup.rekindlePrimitiveTab": "Rekindle Primitive",
+
+  "tooltip.all.rekindleprimitive.shiftinfo": "\u00A77Hold\u00A7r \u00A7eSHIFT\u00A7r \u00A77for details...\u00A7r",
+  "tooltip.block.rekindleprimitive.wet_brick_mold": "\u00A77This needs to be dried in the sun!\u00A7r"
+}

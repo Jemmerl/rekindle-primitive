@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "rekindleprimitive:brick_clay"
+    },
+    {
+      "item": "rekindleprimitive:brick_clay"
+    },
+    {
+      "item": "rekindleprimitive:brick_clay"
+    },
+    {
+      "item": "rekindleprimitive:brick_clay"
+    },
+    {
+      "item": "rekindleprimitive:wooden_brick_mold"
+    }
+  ],
+  "result": {
+    "item": "rekindleprimitive:wet_brick_mold",
+    "count": 1
+  }
+}

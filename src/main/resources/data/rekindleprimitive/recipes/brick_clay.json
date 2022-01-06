@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:clay_ball"
+    },
+    {
+      "item": "minecraft:clay_ball"
+    },
+    {
+      "item": "minecraft:clay_ball"
+    },
+    {
+      "tag": "minecraft:sand"
+    },
+    {
+      "item": "rekindleprimitive:straw_grass"
+    }
+  ],
+  "result": {
+    "item": "rekindleprimitive:brick_clay",
+    "count": 4
+  }
+}
