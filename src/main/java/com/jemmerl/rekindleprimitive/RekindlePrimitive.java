@@ -1,14 +1,18 @@
 package com.jemmerl.rekindleprimitive;
 
 import com.jemmerl.rekindleprimitive.block.ModBlocks;
+import com.jemmerl.rekindleprimitive.client.gui.screen.BasicCrucibleScreen;
+import com.jemmerl.rekindleprimitive.inventory.container.ModContainers;
 import com.jemmerl.rekindleprimitive.item.ModItems;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
+import net.minecraft.client.gui.ScreenManager;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.InterModComms;
+import net.minecraftforge.fml.ModContainer;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
@@ -32,6 +36,7 @@ public class RekindlePrimitive
 
         ModItems.register(eventBus);
         ModBlocks.register(eventBus);
+        ModContainers.register(eventBus);
 
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::enqueueIMC);
@@ -47,7 +52,11 @@ public class RekindlePrimitive
     }
 
     private void doClientStuff(final FMLClientSetupEvent event) {
-        // do something that can only be done on the client
+        event.enqueueWork(() -> {
+            ScreenManager.registerFactory(ModContainers.BASIC_CRUCIBLE_CONTAINER.get(),
+                    BasicCrucibleScreen::new);
+
+        });
     }
 
     private void enqueueIMC(final InterModEnqueueEvent event)

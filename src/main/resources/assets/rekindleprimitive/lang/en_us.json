@@ -17,6 +17,7 @@
 
   "item.rekindleprimitive.digging_stick": "Digging Stick",
   "item.rekindleprimitive.bone_shard_hoe": "Bone Shard Hoe",
+  "item.rekindleprimitive.basic_crucible": "Small Crucible",
 
   "block.rekindleprimitive.wet_brick_mold": "Wet Brick Mold",
   "block.rekindleprimitive.dry_brick_mold": "Dry Brick Mold",
@@ -25,6 +26,8 @@
   "block.rekindleprimitive.vanadinite_ore": "Vanadinite Ore",
 
   "itemGroup.rekindlePrimitiveTab": "Rekindle Primitive",
+
+  "screen.rekindleprimitive.basic_crucible": "Small Crucible",
 
   "tooltip.all.rekindleprimitive.shiftinfo": "\u00A77Hold\u00A7r \u00A7eSHIFT\u00A7r \u00A77for details...\u00A7r",
   "tooltip.block.rekindleprimitive.wet_brick_mold": "\u00A77This needs to be dried in the sun!\u00A7r"

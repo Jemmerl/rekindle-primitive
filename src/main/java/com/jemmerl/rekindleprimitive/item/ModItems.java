@@ -1,5 +1,6 @@
 package com.jemmerl.rekindleprimitive.item;
 
+import com.jemmerl.rekindleprimitive.item.uniqueitems.BasicCrucible;
 import net.minecraft.item.*;
 import com.jemmerl.rekindleprimitive.RekindlePrimitive;
 import net.minecraft.item.crafting.IRecipeType;
@@ -73,6 +74,9 @@ public class ModItems {
     public static final RegistryObject<Item> BONE_HOE = ITEMS.register("bone_shard_hoe",
             () -> new HoeItem(ModItemTier.BASIC, 0, -3.0F,
                     new Item.Properties().group(ModItemGroup.REKINDLEGROUP)));
+
+    public static final RegistryObject<Item> BASIC_CRUCIBLE = ITEMS.register("basic_crucible",
+            () -> new BasicCrucible(new Item.Properties().group(ModItemGroup.REKINDLEGROUP).maxStackSize(1)));
 
     // Item registry method
     public static void register(IEventBus eventBus) {
