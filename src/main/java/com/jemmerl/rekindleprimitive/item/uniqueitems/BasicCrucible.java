@@ -65,4 +65,10 @@ public class BasicCrucible extends Item {
         return ActionResult.resultSuccess(itemStack);
     }
 
+
+
+    @Override
+    public boolean shouldCauseReequipAnimation(ItemStack oldStack, ItemStack newStack, boolean slotChanged) {
+        return slotChanged;
+    }
 }

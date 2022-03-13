@@ -35,6 +35,7 @@ public class BasicCrucibleContainer extends Container {
 
         layoutPlayerInventorySlots(8, 86); // start layout at 8 pix from left, 86 from top
 
+        // Add crucible slots
         addSlot(new SlotItemHandler(itemStackHandler, 0, 71, 31));
         addSlot(new SlotItemHandler(itemStackHandler, 1, 89, 31));
         addSlot(new SlotItemHandler(itemStackHandler, 2, 71, 49));
@@ -43,8 +44,10 @@ public class BasicCrucibleContainer extends Container {
 
     // Adds player inventory slots
     private void layoutPlayerInventorySlots(int leftCol, int topRow) {
+        // Add main inventory space
         addSlotBox(playerInventory, 9, leftCol, topRow, 9, 18, 3, 18);
         topRow += 58;
+        // Add hotbar
         addSlotRange(playerInventory, 0, leftCol, topRow, 9, 18);
     }
 
@@ -60,7 +63,12 @@ public class BasicCrucibleContainer extends Container {
     // Builds a line of slots
     private int addSlotRange(IItemHandler handler, int index, int x, int y, int amount, int dx) {
         for (int i = 0; i < amount; i++) {
-            addSlot(new SlotItemHandler(handler, index, x, y));
+            if ((handler == playerInventory) && (playerEntity.inventory.currentItem == index)) {
+                // Prevents interaction with crucible item
+                addSlot(new SlotLocked(handler, index, x, y));
+            } else {
+                addSlot(new SlotItemHandler(handler, index, x, y));
+            }
             x += dx;
             index++;
         }
