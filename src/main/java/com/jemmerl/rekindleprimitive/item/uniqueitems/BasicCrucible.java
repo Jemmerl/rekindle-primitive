@@ -2,6 +2,7 @@ package com.jemmerl.rekindleprimitive.item.uniqueitems;
 
 import com.jemmerl.rekindleprimitive.inventory.container.BasicCrucibleContainer;
 import com.jemmerl.rekindleprimitive.util.BasicCrucibleItemStackHandler;
+import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.player.PlayerInventory;
 import net.minecraft.entity.player.ServerPlayerEntity;
@@ -64,8 +65,6 @@ public class BasicCrucible extends Item {
         }
         return ActionResult.resultSuccess(itemStack);
     }
-
-
 
     @Override
     public boolean shouldCauseReequipAnimation(ItemStack oldStack, ItemStack newStack, boolean slotChanged) {
