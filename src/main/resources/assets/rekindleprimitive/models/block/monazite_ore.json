@@ -1,6 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "rekindleprimitive:block/monazite_ore"
-  }
-}

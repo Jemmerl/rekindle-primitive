@@ -32,18 +32,6 @@ public class ModBlocks {
             = DeferredRegister.create(ForgeRegistries.BLOCKS, RekindlePrimitive.MOD_ID);
 
     // Create blocks
-    public static final RegistryObject<Block> CHROMITE_ORE = registerBlock("chromite_ore",
-            () -> new Block(AbstractBlock.Properties.create(Material.ROCK)
-                    .harvestLevel(2).harvestTool(ToolType.PICKAXE).setRequiresTool()), 64);
-
-    public static final RegistryObject<Block> MONAZITE_ORE = registerBlock("monazite_ore",
-            () -> new Block(AbstractBlock.Properties.create(Material.ROCK)
-                    .harvestLevel(2).harvestTool(ToolType.PICKAXE).setRequiresTool()), 64);
-
-    public static final RegistryObject<Block> VANADINITE_ORE = registerBlock("vanadinite_ore",
-            () -> new Block(AbstractBlock.Properties.create(Material.ROCK)
-                    .harvestLevel(2).harvestTool(ToolType.PICKAXE).setRequiresTool()), 64);
-
     public static final RegistryObject<Block> WET_BRICK_MOLD = registerBlock("wet_brick_mold",
             () -> new WetBrickMold(AbstractBlock.Properties.create(Material.LEAVES).tickRandomly().notSolid().hardnessAndResistance(0.5f)), 16,"tooltip.block.rekindlemod.wet_brick_mold");
 
