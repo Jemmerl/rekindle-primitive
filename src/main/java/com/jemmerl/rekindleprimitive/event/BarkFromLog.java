@@ -41,7 +41,7 @@ public class BarkFromLog extends AxeItem {
                 ((blockState.isIn(BlockTags.LOGS)) &&
                         !(blockState.getBlock().getRegistryName().toString().contains("stripped")))) {
             World world = (event.getPlayer()).getEntityWorld();
-            if (world.rand.nextFloat() > 0.7F) {
+            if (world.rand.nextFloat() > 0.6F) {
                 ItemStack itemStack = new ItemStack((IItemProvider) ModItems.BARK_STRIPS.get(),1);
                 BlockPos pos = rayTrace(world, player, event.getPos());
                 world.addEntity((Entity)new ItemEntity(world,

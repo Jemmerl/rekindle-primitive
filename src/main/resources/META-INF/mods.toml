@@ -21,7 +21,7 @@ modId="rekindleprimitive" #mandatory
 # see the associated build.gradle script for how to populate this completely automatically during a build
 version="${file.jarVersion}" #mandatory
  # A display name for the mod
-displayName="Rekindle Pack Primitive" #mandatory
+displayName="Rekindle Primitive" #mandatory
 # A URL to query for updates for this mod. See the JSON update specification https://mcforge.readthedocs.io/en/latest/gettingstarted/autoupdate/
 #updateJSONURL="https://change.me.example.invalid/updates.json" #optional
 # A URL for the "homepage" for this mod, displayed in the mod UI
@@ -29,7 +29,7 @@ displayName="Rekindle Pack Primitive" #mandatory
 # A file name (in the root of the mod JAR) containing a logo for display
 logoFile="examplemod.png" #optional
 # A text field displayed in the mod UI
-credits="Thanks for this mod goes to Java and Kaupenjoe" #optional
+credits="Thanks for this mod goes to Java and Kaupenjoe, among many other helpful individuals." #optional
 # A text field displayed in the mod UI
 authors="Jemmerl" #optional
 # The description text for the mod (multi line!) (#mandatory)

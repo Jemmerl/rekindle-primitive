@@ -50,22 +50,25 @@ public class ModItems {
             () -> new Item(new Item.Properties().group(ModItemGroup.REKINDLEGROUP)));
 
     public static final RegistryObject<Item> PELT = ITEMS.register("animal_pelt",
-            () -> new Item(new Item.Properties().group(ModItemGroup.REKINDLEGROUP).maxStackSize(32)));
+            () -> new Item(new Item.Properties().group(ModItemGroup.REKINDLEGROUP).maxStackSize(64)));
 
     public static final RegistryObject<Item> SCRAPED_HIDE = ITEMS.register("scraped_hide",
-            () -> new Item(new Item.Properties().group(ModItemGroup.REKINDLEGROUP).maxStackSize(32)));
+            () -> new Item(new Item.Properties().group(ModItemGroup.REKINDLEGROUP).maxStackSize(64)));
 
     public static final RegistryObject<Item> SOAKED_HIDE = ITEMS.register("soaked_hide",
-            () -> new Item(new Item.Properties().group(ModItemGroup.REKINDLEGROUP).maxStackSize(32)));
+            () -> new Item(new Item.Properties().group(ModItemGroup.REKINDLEGROUP).maxStackSize(64)));
 
     public static final RegistryObject<Item> PREPARED_HIDE = ITEMS.register("prepared_hide",
-            () -> new Item(new Item.Properties().group(ModItemGroup.REKINDLEGROUP).maxStackSize(32)));
+            () -> new Item(new Item.Properties().group(ModItemGroup.REKINDLEGROUP).maxStackSize(64)));
 
     public static final RegistryObject<Item> WET_TANNED_HIDE = ITEMS.register("wet_tanned_hide",
-            () -> new Item(new Item.Properties().group(ModItemGroup.REKINDLEGROUP).maxStackSize(32)));
+            () -> new Item(new Item.Properties().group(ModItemGroup.REKINDLEGROUP).maxStackSize(64)));
 
     public static final RegistryObject<Item> LEATHER_STRIPS = ITEMS.register("leather_strips",
             () -> new Item(new Item.Properties().group(ModItemGroup.REKINDLEGROUP)));
+
+    public static final RegistryObject<Item> CORDAGE = ITEMS.register("fiber_cordage",
+            () -> new Item(new Item.Properties().group(ModItemGroup.REKINDLEGROUP).maxStackSize(64)));
 
     public static final RegistryObject<Item> DIGGING_STICK = ITEMS.register("digging_stick",
             () -> new ShovelItem(ModItemTier.BASIC, 1.0F, -3.0F,
